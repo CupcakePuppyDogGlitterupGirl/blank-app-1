@@ -15,3 +15,4 @@ roll = get_roll(num_sides)
 
 st.write("Roll is:", roll)
 
+st.button("Reroll")
