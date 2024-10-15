@@ -41,16 +41,20 @@ rooms = [
 st.title("Welcome to the Dungeon of Doom!!! 👹 😎 🥳")
 
 st.write("Print out the first room:")
-room = rooms[3]
+room = rooms[0]
 st.write(room)
 
-st.write("Print out the 3rd room:")
-st.write(room2)
+st.write("Print out the 2nd room:")
+room = rooms[1]
+st.write(room)
 
 
 st.write("Print out the last room:")
+room = rooms[-1]
+st.write(room)
 
 st.write("Print out the treasures in the 2nd room:")
+st.write()]
 
 st.write("Print out the monsters in the 4th room:")
 
