@@ -54,13 +54,11 @@ room = rooms[-1]
 st.write(room)
 
 st.write("Print out the treasures in the 2nd room:")
-st.write()]
-
+rooms[1]["treasures"]
 st.write("Print out the monsters in the 4th room:")
-
-st.write("Print out the second secret in the 5th room:")
-
-
+rooms[3]["monsters"]
+st.write("Print out the second secret in the 6th room:")
+rooms[5]["secrets"][1]
 
 
 
