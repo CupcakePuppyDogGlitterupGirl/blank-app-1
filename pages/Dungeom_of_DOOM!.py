@@ -35,19 +35,28 @@ rooms = [
     },
     {
         "treasures": ["opal", "ruby"],
-        "monsters": ["giant eagle"],
-        "secrets": ["the eagle is actually a hologram"],
+        "monsters": ["Queen Diamond Twinkle"],
+        "secrets": ["the queen's favorite color is glitter!"],
     },
 ]
 
 st.title("Welcome to the Dungeon of Doom!!! 👹 😎 🥳")
-
+st.write("### An Easy Vacation guide of this spooky tourist atraction!")
 room_number = 1
 for room in rooms:
     treasures = ", ".join(room["treasures"])
     st.write(f"room number {room_number} has these treasures: {treasures}")
     room_number = room_number + 1
     
+for room in rooms:
+    monsters = ", ".join(room["monsters"])
+    st.write(f"room number {room_number} has these monsters: {monsters}")
+    room_number = room_number + 1
+
+for room in rooms:
+    secrets = ", ".join(room["secrets"])
+    st.write(f"room number {room_number} has these secrets: {secrets}")
+    room_number = room_number + 1
 st.write("Print out the first room:")
 room = rooms[0]
 st.write(room)
