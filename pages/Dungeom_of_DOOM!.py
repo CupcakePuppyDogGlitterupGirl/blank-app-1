@@ -42,127 +42,40 @@ rooms = [
 
 st.title("Welcome to the Dungeon of Doom!!! 👹 😎 🥳")
 st.write("### An Easy Vacation guide of this spooky tourist atraction!")
+st.write("###")
 room_number = 1
+
+
 for room in rooms:
     treasures = ", ".join(room["treasures"])
-    st.write(f"room number {room_number} has these treasures: {treasures}")
+    monsters = ", ".join(room["monsters"])
+    secrets = ", ".join(room["secrets"])
+    st.write(f"""Welcome to room number {room_number}, we have all this stuff:
+
+treasures: {treasures}
+
+monsters: {monsters}
+
+secrets: {secrets}
+
+###
+""")
     room_number = room_number + 1
     
-for room in rooms:
-    monsters = ", ".join(room["monsters"])
-    st.write(f"room number {room_number} has these monsters: {monsters}")
-    room_number = room_number + 1
-
-for room in rooms:
-    secrets = ", ".join(room["secrets"])
-    st.write(f"room number {room_number} has these secrets: {secrets}")
-    room_number = room_number + 1
-st.write("Print out the first room:")
-room = rooms[0]
-st.write(room)
-
-st.write("Print out the 2nd room:")
-room = rooms[1]
-st.write(room)
-
-
-st.write("Print out the last room:")
-room = rooms[-1]
-st.write(room)
-
-st.write("Print out the treasures in the 2nd room:")
-rooms[1]["treasures"]
-st.write("Print out the monsters in the 4th room:")
-rooms[3]["monsters"]
-st.write("Print out the second secret in the 6th room:")
-rooms[5]["secrets"]
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+st.write("### Enjoy your stay!")
+
+st.html("""
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap" rel="stylesheet">
+
+<style>
+h3 {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+</style>
+
+""")
