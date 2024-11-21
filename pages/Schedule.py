@@ -9,4 +9,4 @@ checkbox = st.checkbox("Enable custom input")
 if checkbox:
     user_input = st.text_input("Enter your custom text")
     if user_input:
-        st.write(f"You entered: {user_input}")
+        st.write(f: st.checkbox("user_input")")
