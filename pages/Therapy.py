@@ -1,6 +1,6 @@
 import streamlit as st
 import random
-st.title("Welcome to Therapy with Felica and Kate!")
+st.title("Welcome to Therapy with Felica and Kizzypop!")
 st.write("We hope that you can complete the following and become filled with joy and become rejuvenated!")
 image_urls = [
      'https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg',
