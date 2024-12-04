@@ -10,7 +10,10 @@ image_urls = [
      'mowhawk doggie.jpg',
      'gifdog1.gif',
      'doggif1.gif',
-     'cutedoggif1.gif'
+     'cutedoggif1.gif',
+     'alliesdreamdog.jpeg',
+     'a.jpeg',
+     'mydreamdog.jpeg'
 ]
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy and unforgetable adorability, click the button!!")
