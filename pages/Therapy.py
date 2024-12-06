@@ -13,8 +13,19 @@ image_urls = [
      'cutedoggif1.gif',
      'alliesdreamdog.jpeg',
      'a.jpeg',
-     'mydreamdog.jpeg'
+     'mydreamdog.jpeg',
+     'cuteawwww.jpeg',
+     'dogjumplake.gif',
+     'jumpindog.gif',
+     'lotsdogswater.gif',
+     'pullsleddogs.jpeg',
+     'pupyrinning.jpeg',
+     'swimdoggie.jpeg',
+     'swimgolddog.jpeg',
+     'tiredpup.jpeg'
+
 ]
+sound_urls = [inspirational-music-motivational-epic-background-intro-theme-259697.mp3]
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy and unforgetable adorability, click the button!!")
     
