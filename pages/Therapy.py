@@ -25,7 +25,7 @@ image_urls = [
      'tiredpup.jpeg'
 
 ]
-sound_urls = [inspirational-music-motivational-epic-background-intro-theme-259697.mp3]
+
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy and unforgetable adorability, click the button!!")
     
