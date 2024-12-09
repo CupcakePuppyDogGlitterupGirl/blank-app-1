@@ -66,3 +66,28 @@ with st.expander("Click here to see options for animals up for adoption."):
 #https://upload.wikimedia.org/wikipedia/commons/b/b2/Dog-1123016_960_720.jpg
 
 #(95 kB)
+
+
+
+st.write("Below are quotes that can encourage and energize people.")
+Bible_Quotes, John_Piper, Tim_Keller = st.tabs(["Bible", "John Piper", "Tim Keller"])
+
+with Bible_Quotes:
+    st.write("Isaiah 41:10 Fear not, for I am with you; be not dismayed, for I am your God; I will strengthen you, I will help you,I will uphold you with my righteous right hand.")
+    st.write("Philippians 4:6-7 Do not be anxious about anything, but in everything by prayer and supplication with thanksgiving let your requests be made known to God. And the peace of God, which surpasses all understanding, will guard your hearts and your minds in Christ Jesus.")
+
+with John_Piper:
+    st.write("Desire that your life count for something great! Long for your life to have eternal significance. Want this! Don’t coast through life without a passion.")
+    st.write("But whatever you do, find the God-centered, Christ-exalting, Bible-saturated passion of your life, and find your way to say it and live for it and die for it. And you will make a difference that lasts. You will not waste your life.")
+
+with Tim_Keller:
+     st.write("The gospel says you are simultaneously more sinful and flawed than you ever dared believe, yet more loved and accepted than you ever dared hope.")
+
+
+st.write("####")
+
+st.write("Below is a video to help strengthen and encourage you!")
+
+st.video("https://www.youtube.com/watch?v=cbOo6lpUdlY",autoplay=True)
+
+
