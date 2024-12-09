@@ -89,24 +89,22 @@ st.write("####")
 st.write("Below is a video to help strengthen and encourage you!")
 
 st.video("https://www.youtube.com/watch?v=cbOo6lpUdlY",autoplay=True)
-
+st.subheader("Comix")
 
 st.write("Here are some great jokes to help you laugh more!")
 
-output = st.button("Comics")
-st.write(output)
+
 
 Comics = [
-    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/11/calvin-s-mom-lets-him-have-a-cigarette-in-calvin-and-hobbes.jpg?q=70&fit=crop&w=825&dpr=1"),
-    st.image("calvin0.jpg"),
-    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-days-are-just-packed.jpg?q=70&fit=crop&w=825&dpr=1"),
-    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-playing-in-the-bath.jpg?q=70&fit=crop&w=825&dpr=1"),
-    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-imitating-his-dad.jpg?q=70&fit=crop&w=825&dpr=1"),
-    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/07/calvin-and-hobbes-calvin-sells-a-product-he-believes-everyone-needs.jpg?q=70&fit=crop&w=825&dpr=1"),
-    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-eggplant-casserole-snowmen.jpg?q=70&fit=crop&w=825&dpr=1"),
-
-
-
+    "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/11/calvin-s-mom-lets-him-have-a-cigarette-in-calvin-and-hobbes.jpg?q=70&fit=crop&w=825&dpr=1",
+    "calvin0.jpg",
+    "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-days-are-just-packed.jpg?q=70&fit=crop&w=825&dpr=1",
+    "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-playing-in-the-bath.jpg?q=70&fit=crop&w=825&dpr=1",
+    "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-imitating-his-dad.jpg?q=70&fit=crop&w=825&dpr=1",
+    "https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/07/calvin-and-hobbes-calvin-sells-a-product-he-believes-everyone-needs.jpg?q=70&fit=crop&w=825&dpr=1",
+    "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-eggplant-casserole-snowmen.jpg?q=70&fit=crop&w=825&dpr=1",
+    "calvin0.jpg", 
+    "calvin7h1.jpeg",
 ]
 
 
@@ -114,12 +112,9 @@ if "page number" not in st.session_state:
      st.session_state["page number"]=0
 
 
-num = st.session_state["page number"]
 
-st.write(Comics[num % 3])
-
-if st.button("Next button"):
+if st.button("Next Comic"):
     st.session_state["page number"] = st.session_state["page number"] + 1
+num = st.session_state["page number"]
+st.image(Comics[num % len(Comics)])
 
-st.write("SESSION STATE:")
-st.write(str(st.session_state))
