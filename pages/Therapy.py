@@ -31,6 +31,12 @@ sound_urls = [
      'songs/epic-emotinal-inspirational-207071.mp3',
      'songs/inspirational-music-motivational-epic-background-intro-theme-259697.mp3',
      'songs/exciting-inspirational-music-motivational-background-intro-theme-269841 (2).mp3',
+     'songs/emotional-cinematic-inspirational-piano-main-10524.mp3',
+     'songs/motivational-music-inspirational-cinematic-background-intro-theme-261168.mp3',
+     'songs/ukulele-160363.mp3',
+     'songs/inspirational-epic-224660 (1).mp3',
+     'songs/inspirational-epic-orchestral-186819 (1).mp3',
+     
 
 ]
 
