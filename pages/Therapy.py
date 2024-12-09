@@ -24,7 +24,6 @@ image_urls = [
      'swimdoggie.jpeg',
      'swimgolddog.jpeg',
      'tiredpup.jpeg'
-
 ]
 
 sound_urls = [
@@ -40,10 +39,9 @@ sound_urls = [
 
 ]
 
-with st.chat_message("user"):
-    st.write("If you want to experience a moment of joy and unforgetable adorability, click the button!!")
+st.write("If you want to experience a moment of joy and unforgetable adorability, click the button!!")
     
-    if st.button("The Button"):
+if st.button("The Button"):
     
 
           image_pick=random.choice(image_urls)
