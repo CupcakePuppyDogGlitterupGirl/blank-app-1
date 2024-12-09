@@ -96,7 +96,6 @@ st.image("calvin0.jpg")
 
 st.write("Here are some great jokes to help you laugh more!")
 
-
 output = st.button("Comics")
 st.write(output)
 
@@ -107,13 +106,16 @@ Comics = [
 ]
 
 
+if "page number" not in st.session_state:
+     st.session_state["page number"]=0
 
 
-if "Jokes" not in st.session_state:
-    st.session_state["Jokes"] = []
+num = st.session_state["page number"]
+
+st.write(Comics[num % 3])
 
 if st.button("Next button"):
-    st.session_state["Jokes"].append("something")
+    st.session_state["page number"] = st.session_state["page number"] + 1
 
 st.write("SESSION STATE:")
 st.write(str(st.session_state))
