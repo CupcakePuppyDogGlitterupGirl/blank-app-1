@@ -1,3 +1,4 @@
+# K now it should be pretty simple. We just need to make it do a random song and verse along with the doggie image.
 import streamlit as st
 import random
 st.title("Welcome to Therapy with Felica and Kizzypop!")
@@ -26,12 +27,24 @@ image_urls = [
 
 ]
 
+sound_urls = [
+     'songs/epic-emotinal-inspirational-207071.mp3',
+     'songs/inspirational-music-motivational-epic-background-intro-theme-259697.mp3',
+     'songs/exciting-inspirational-music-motivational-background-intro-theme-269841 (2).mp3',
+
+]
+
 with st.chat_message("user"):
     st.write("If you want to experience a moment of joy and unforgetable adorability, click the button!!")
     
-    st.button("The Button")
-image_pick=random.choice(image_urls)
-st.image(image_pick, width=450)   
+    if st.button("The Button"):
+    
+
+          image_pick=random.choice(image_urls)
+          st.image(image_pick, width=450)
+          sound_pick=random.choice(sound_urls)  
+          st.audio(sound_pick, autoplay=True)
+
 with st.expander("Click here to see options for animals up for adoption."):
      st.image("https://static.streamlit.io/examples/dog.jpg")
 
