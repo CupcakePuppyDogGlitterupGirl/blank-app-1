@@ -1,4 +1,4 @@
-# K now it should be pretty simple. We just need to make it do a random song and verse along with the doggie image.
+# K now it should be pretty simple. We just need to make it do a random verse along with the doggie image and song.
 import streamlit as st
 import random
 st.title("Welcome to Therapy with Felica and Kizzypop!")
