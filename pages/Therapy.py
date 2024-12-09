@@ -92,4 +92,28 @@ st.video("https://www.youtube.com/watch?v=cbOo6lpUdlY",autoplay=True)
 
 st.image("calvin0.jpg")
 
+st.image("calvin0.jpg")
 
+st.write("Here are some great jokes to help you laugh more!")
+
+
+output = st.button("Comics")
+st.write(output)
+
+Comics = [
+    "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/11/calvin-s-mom-lets-him-have-a-cigarette-in-calvin-and-hobbes.jpg?q=70&fit=crop&w=825&dpr=1",
+    "Image 2",
+    "Image 3",
+]
+
+
+
+
+if "Jokes" not in st.session_state:
+    st.session_state["Jokes"] = []
+
+if st.button("Next button"):
+    st.session_state["Jokes"].append("something")
+
+st.write("SESSION STATE:")
+st.write(str(st.session_state))
