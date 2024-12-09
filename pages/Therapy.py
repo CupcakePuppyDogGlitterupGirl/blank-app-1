@@ -90,6 +90,6 @@ st.write("Below is a video to help strengthen and encourage you!")
 
 st.video("https://www.youtube.com/watch?v=cbOo6lpUdlY",autoplay=True)
 
-st.image("")
+st.image("calvin0.jpg")
 
 
