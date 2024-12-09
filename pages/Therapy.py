@@ -36,6 +36,8 @@ sound_urls = [
      'songs/inspirational-epic-224660 (1).mp3',
      'songs/inspirational-epic-orchestral-186819 (1).mp3',
      
+]
+     
 
 
 
@@ -87,5 +89,7 @@ st.write("####")
 st.write("Below is a video to help strengthen and encourage you!")
 
 st.video("https://www.youtube.com/watch?v=cbOo6lpUdlY",autoplay=True)
+
+st.image("")
 
 
