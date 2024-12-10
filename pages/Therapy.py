@@ -100,9 +100,9 @@ output = st.button("Comics")
 st.write(output)
 
 Comics = [
-    "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/11/calvin-s-mom-lets-him-have-a-cigarette-in-calvin-and-hobbes.jpg?q=70&fit=crop&w=825&dpr=1",
-    "Image 2",
-    "Image 3",
+    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/11/calvin-s-mom-lets-him-have-a-cigarette-in-calvin-and-hobbes.jpg?q=70&fit=crop&w=825&dpr=1"),
+    st.image("calvin0.jpg"),
+    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-days-are-just-packed.jpg?q=70&fit=crop&w=825&dpr=1"),
 ]
 
 
