@@ -103,6 +103,13 @@ Comics = [
     st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/11/calvin-s-mom-lets-him-have-a-cigarette-in-calvin-and-hobbes.jpg?q=70&fit=crop&w=825&dpr=1"),
     st.image("calvin0.jpg"),
     st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-days-are-just-packed.jpg?q=70&fit=crop&w=825&dpr=1"),
+    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-playing-in-the-bath.jpg?q=70&fit=crop&w=825&dpr=1"),
+    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-imitating-his-dad.jpg?q=70&fit=crop&w=825&dpr=1"),
+    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2024/07/calvin-and-hobbes-calvin-sells-a-product-he-believes-everyone-needs.jpg?q=70&fit=crop&w=825&dpr=1"),
+    st.image("https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-eggplant-casserole-snowmen.jpg?q=70&fit=crop&w=825&dpr=1"),
+
+
+
 ]
 
 
