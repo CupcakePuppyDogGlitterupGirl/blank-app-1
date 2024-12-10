@@ -43,7 +43,7 @@ sound_urls = [
 
 st.write("If you want to experience a moment of joy and unforgetable adorability, click the button!!")
     
-if st.button("Therapy Generator"):
+if st.button("Puppy Generator"):
     
 
           image_pick=random.choice(image_urls)
