@@ -106,6 +106,10 @@ Comics = [
     "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/04/calvin-and-hobbes-eggplant-casserole-snowmen.jpg?q=70&fit=crop&w=825&dpr=1",
     "calvin0.jpg", 
     "calvin7h1.jpeg",
+    "skygazingpeanuts.jpg",
+    "lucy1.webp",
+    "linusblankie1.avif",
+    "1234567890.avif"
 ]
 
 
