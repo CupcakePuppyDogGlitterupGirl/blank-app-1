@@ -108,10 +108,8 @@ Comics = [
     "calvin7h1.jpeg",
     "skygazingpeanuts.jpg",
     "lucy1.webp",
-    "linusblankie1.avif",
-    "1234567890.avif"
+    "dance!snoopy.webp"
 ]
-
 
 if "page number" not in st.session_state:
      st.session_state["page number"]=0
