@@ -51,8 +51,9 @@ if st.button("Puppy Generator"):
           sound_pick=random.choice(sound_urls)  
           st.audio(sound_pick, autoplay=True)
 
-with st.expander("Click here to see options for animals up for adoption."):
-     st.image("https://static.streamlit.io/examples/dog.jpg")
+with st.expander("Click here to see all the puppy images."):
+     for dog in image_urls:
+          st.image(dog)
 
      
 
