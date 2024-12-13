@@ -88,9 +88,9 @@ with Tim_Keller:
 
 st.write("####")
 
-st.write("Below is a video to help strengthen and encourage you!")
+with st.expander("Click here to see a video to help strengthen and encourage you!"):
 
-st.video("https://www.youtube.com/watch?v=cbOo6lpUdlY",autoplay=True)
+     st.video("https://www.youtube.com/watch?v=cbOo6lpUdlY",autoplay=True)
 st.subheader("Comix")
 
 st.write("Here are some great jokes to help you laugh more!")
