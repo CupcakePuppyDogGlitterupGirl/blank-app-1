@@ -122,3 +122,7 @@ if st.button("Next Comic"):
 num = st.session_state["page number"]
 st.image(Comics[num % len(Comics)])
 
+
+#The End!
+
+
