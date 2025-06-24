@@ -72,7 +72,7 @@ st.html("""
 
 <style>
 h3 {
-  font-family: "Dancing Script", cursive;
+  font-family: "Dancing Script", cursive !important;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
